@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command.cs" />
+    <Compile Include="Expression.cs" />
+    <Compile Include="Standard\ExecuteCommand.cs" />
     <Compile Include="Standard\HelpCommand.cs" />
     <Compile Include="Standard\ConsoleLog.cs" />
     <Compile Include="Executor.cs" />

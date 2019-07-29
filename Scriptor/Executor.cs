@@ -15,8 +15,8 @@ namespace Scriptor {
             Output = io;
         }
 
-        public void DeffineCommand(Command com) {
-            Commands.Add(com.Name, com);
+        public void DeffineCommand(Command com, string name = null) {
+            Commands.Add(name ?? com.Name, com);
             com.Init(this);
         }
 

@@ -15,9 +15,11 @@ namespace Demo {
             Executor exec = new Executor(new ConsoleLog());
 
             exec.DeffineCommand(new HelpCommand());
+            exec.DeffineCommand(new ExecuteCommand());
 
             bool run = true;
             while (run) {
+                exec.Output.Write(" > ");
                 exec.Execute(Console.ReadLine());
             }
 
