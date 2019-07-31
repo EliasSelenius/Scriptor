@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Scriptor.Standard {
-    public class ExecuteCommand : Command {
+using Scriptor;
 
-        public ExecuteCommand() : base("exec") {
+namespace Demo {
+    class ThrowCommand : Command {
+
+        public ThrowCommand() : base("throw") {
 
         }
 
-
         public override void Execute(string args) {
-            Exec.Execute(args);
+            throw new Exception(args);
         }
     }
 }

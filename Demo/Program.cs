@@ -16,7 +16,8 @@ namespace Demo {
 
             exec.DeffineCommand(new HelpCommand());
             exec.DeffineCommand(new ExecuteCommand());
-
+            exec.DeffineCommand(new ThrowCommand());
+       
             bool run = true;
             while (run) {
                 exec.Output.Write(" > ");

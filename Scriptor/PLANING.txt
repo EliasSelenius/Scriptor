@@ -1,0 +1,16 @@
+﻿
+
+plans for Scriptor:
+
+	will probalby be more useful as a kind of markuplanguage,
+	except its actually capable of executing code.
+	so for example the markup could save data describing a box: width, height and depth,
+	but it could also save width * height * depth as volume, so when the script executes we get the volume aswell
+
+	better example:
+		saving a gamelevel where you want the enemys to always have a random position
+
+
+Terms:
+	Command - something that executes
+	Expression - a Command that evaluates to a value

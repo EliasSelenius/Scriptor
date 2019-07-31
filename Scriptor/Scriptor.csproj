@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Colors.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Expression.cs" />
     <Compile Include="Standard\ExecuteCommand.cs" />
@@ -49,6 +50,9 @@
     <Compile Include="Executor.cs" />
     <Compile Include="OutputLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PLANING.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,9 +12,11 @@ namespace Scriptor.Standard {
         }
 
         public override void Execute(string args) {
+            Output.TextColor(Colors.Yellow);
             foreach (var c in Exec.Commands) {
                 Output.WriteLine(c.Key + " - " + c.Value.GetType().Name + " - " + c.Value.Description);
             }
+            Output.ResetColor();
         }
     }
 }
