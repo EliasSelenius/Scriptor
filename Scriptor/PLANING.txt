@@ -9,7 +9,7 @@ plans for Scriptor:
 
 	better example:
 		saving a gamelevel where you want the enemys to always have a random position
-
+		or props (like trees and rocks) to be spawned with random sizes
 
 Terms:
 	Command - something that executes
